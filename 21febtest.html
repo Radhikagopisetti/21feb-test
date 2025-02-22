@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=ul, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        <!--1st -->
+
+        a{
+            color: blue;
+        }
+        a:hover{
+            color: red;
+        }
+        a:active{
+            color: green;
+        }
+
+        <!--2nd  -->
+
+        h1 {
+        font-family: Arial;
+        text-shadow: 2px 2px 4px #000000;
+        }
+
+        p {
+       font-size: 1.2rem;
+       line-height: 1.6;
+       text-align: justify;
+        }
+
+        <!--3rd -->
+
+        .card {
+  border: 1px solid gray;
+  padding: 20px;
+  margin: 10px;
+  max-width: 300px;
+}
+
+        <!--4th -->
+
+nav {
+  display: flex;
+  justify-content: space-between;
+align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  gap: 20px;
+}
+
+<!--5th -->
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+@media (max-width: 600px) {
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+}
+
+<!--6th -->
+
+button {
+background-color: blue;
+color: white;
+transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+background-color: darkblue;
+}
+
+<!--7th -->
+button {
+width: 150px;
+height: 50px;
+background-color: blue;
+color: white;
+transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+background-color: darkblue;
+}
+
+
+    </style>
+</head>
+<body>
+    <!--1st -->
+    <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">NEWS</a></li>
+        <li><a href="#">CONTENT</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">THEAM</a></li>
+    </ul><hr>
+    <!--2nd -->
+    <H1>RADHIKA</H1><hr>
+    <P>Hi my name is Radhika. I am from the Krishna district, I persuing my bachelor's degree in electronics throughout my academic journey I developed a strong foundation in electronicsand communication. I have also acquired skills in basics of computer MS Office, Ms Word and tally.</P>
+    <!--3rd -->
+    <div class="card">HI Everyonre</div><hr>
+    <!--4th -->
+
+    <nav>
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a><hr>
+      </nav>
+    <!--5th -->
+    <div class="gallery">
+    <img src="https://headlines.peta.org/wp-content/uploads/2020/12/ACOM-VIV-Rabbit-Bunny-satyabrata-sm-u_kMWN-BWyU-unsplash-2-scaled.jpeg" alt="Image 1" width="250">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3HTgKkm-tBcNbiLG5eCL12nOngY_fEta2BA&s" alt="Image 2" width="250">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVVgg2504skdAYRKpm0qIyPUEoxrFt52jAjw&s" alt="Image 3" width="250">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-zC7_QpxtJsz5gXUesUi698a5_tE_3H9ukw&s" alt="Image 4" width="250"><hr>
+
+    <!--6th -->
+    <button>click here</button><hr>
+
+    <!--7th -->
+    <button>HOVER ME</button>
+
+
+</div>
+</body>
+</html>
